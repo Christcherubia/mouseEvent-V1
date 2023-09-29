@@ -1,0 +1,53 @@
+* ::selection{
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: transparent; /* Définit le surlignement en fond transparent */
+    color: rgb(255, 255, 255); /* Définit la couleur du texte */
+  }
+  body  {  
+    text-align: center;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    min-height: 200vh;
+    overflow-x: hidden;
+    cursor: none;
+  }
+
+  .title {
+    text-decoration: double;
+    margin: 45px auto;
+  }
+
+  .mousemove {
+    height: 58px;
+    width: 55px;
+    filter: blur(12px);
+    border: 2px solid rgba(39, 0, 39, 0.979);
+    box-shadow: 2px 2px 0.9px rgba(0, 27, 21, 0.233);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 60px;
+    transition: 0.2s ease-out;
+    z-index: -1;
+  }
+
+  ul {
+    margin: 50px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+    
+  }
+
+  li {
+    list-style-type: none;
+    padding: 15px;
+    font-size: 1.4rem;
+    text-shadow: 1.3px 1.5px 0.7px white;
+    border: solid white 2px;
+    box-shadow: 1px 2px white;
+    transition: 0.8s ease-in;
+  }
+
+ 
