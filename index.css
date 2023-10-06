@@ -1,8 +1,8 @@
-* ::selection{
+* ::selection{ /* voilà c'est tout simplement avec cette attribut */
     box-sizing: border-box;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     background-color: transparent; /* Définit le surlignement en fond transparent */
-    color: rgb(255, 255, 255); /* Définit la couleur du texte */
+    color: rgb(255, 255, 255); /* Et en mettant la couleur du texte de la même couleur que le font*/
   }
   body  {  
     text-align: center;
@@ -10,7 +10,7 @@
     color: rgb(255, 255, 255);
     min-height: 200vh;
     overflow-x: hidden;
-    cursor: none;
+    cursor: none; 
   }
 
   .title {
@@ -19,11 +19,11 @@
   }
 
   .mousemove {
-    height: 58px;
-    width: 55px;
-    filter: blur(12px);
-    border: 2px solid rgba(39, 0, 39, 0.979);
-    box-shadow: 2px 2px 0.9px rgba(0, 27, 21, 0.233);
+    height: 38px;
+    width: 38px;
+    filter: blur(7px);
+    border: 7px solid rgb(39, 0, 39);
+    box-shadow: 2px 2px 0.9px rgba(0, 27, 21, 0.986);
     position: absolute;
     transform: translate(-50%, -50%);
     border-radius: 60px;
