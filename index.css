@@ -1,4 +1,4 @@
-* ::selection{ /* voilà c'est tout simplement avec cette attribut */
+* ::selection { /* voilà c'est tout simplement avec cette attribut */
     box-sizing: border-box;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     background-color: transparent; /* Définit le surlignement en fond transparent */
@@ -44,7 +44,7 @@
     list-style-type: none;
     padding: 15px;
     font-size: 1.4rem;
-    text-shadow: 1.3px 1.5px 0.7px white;
+    text-shadow: 1.1px 1.2px 0.7px white;
     border: solid white 2px;
     box-shadow: 1px 2px white;
     transition: 0.8s ease-in;
